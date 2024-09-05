@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Size</title>
+    <style>
+        *{
+            margin: 0;
+        }
+
+        @media all and (min-width:800px) and (max-width:1900px) {
+            .container {
+                width: auto;
+                height: 1000px;
+                margin: auto;
+                
+                background-color: rgb(237, 133, 107);
+                border: 1px dotted;
+            }
+        }
+
+            @media all and (min-width:500px) and (max-width:799px) {
+                .container {
+                    height: 1000px;
+                    margin: auto;
+                    
+                    background-color: rgb(105, 105, 246);
+                    border: 1px dotted;
+                }
+            }
+
+            @media all and (min-width:0px) and (max-width:499px) {
+                .container {
+                    height: 1000px;
+                    margin: auto;
+                   
+                    background-color: greenyellow;
+                    border: 1px dotted;
+                }
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+    </div>
+</body>
+
+</html>
